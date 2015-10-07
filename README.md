@@ -9,6 +9,14 @@ Failed to write to /Users/greg/test_realm953_carthage/Carthage/Build/iOS/Realm.f
 ), NSDestinationFilePath=/Users/greg/test_realm953_carthage/Carthage/Build/iOS/Realm.framework/strip-frameworks.sh, NSFilePath=/private/var/folders/bp/mdmhbyj1723_z5jvwnf6p_fw0000gn/T/carthage-archive.QKH7Dg/Carthage/Build/iOS/Realm.framework/strip-frameworks.sh, NSUnderlyingError=0x7fcc0862a010 {Error Domain=NSPOSIXErrorDomain Code=17 "File exists"}}
 ```
 
+To repro 
+```sh
+git clone https://github.com/GregIngelmo/test_realm953_carthage
+> ./test_carthage_build.sh
+```
+
+Complete log
+
 ```sh
 greg@Kemist-MacBook-Pro-15 [0] > git checkout realm-cocoa-95-2 > /dev/null
 HEAD is now at 4c46ff1... Add osx info
