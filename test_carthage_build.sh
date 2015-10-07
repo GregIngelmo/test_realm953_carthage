@@ -1,8 +1,9 @@
 #!/bin/sh
-echo "**************"
+echo "******************************************"
+echo Cathage version `carthage version`
 xcodebuild -version
 xcrun swift -version
-echo "**************"
+echo "******************************************"
 
 # Clean Carthage dirs
 set -x 
